@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono:wght@200&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 
+{font-family: 'JetBrains Mono', monospace;}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  background-color: #dcdcdc;
+}
+
+/* Full height image header */
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-color: #dcdcdc;
+  min-height: 100%;
+  background-repeat: repeat;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  .header {
+    float: left;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: right;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+  /* The navbar */
+  .topnav {
+    text-align: right;
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    color: #021d12;
+    text-align: right;
+    padding: 0px 25px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: green;
+  }
+  
+  html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 10% 0 0;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(7, 88, 4, 0.2);
+}
+
+.container {
+  padding: 0 25px;
+  float: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:#021d12;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.row a {
+  text-decoration: none;
+  padding: 50px 50px;
+  position: relative;
+  float: none;
+}
+
+.previous {
+  background-color: #021d12;
+  color: white;
+}
+
+.next {
+  background-color:#021d12;
+  color: white;
+}
+
+.round,.previous {
+  border-radius: 50%;
+}
+
+.footer {
+  margin-top: 30%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 40%;
+  color: #0af14f;
+  text-align: center;
+}
+.footer a {
+  color: #dcdcdc;
+}
+ </style>
+</head>
+<body>
+    <div class="bgimg">
+        <div class="header">
+            <a href="index.html" class="logo"><span style="color: white; font-size: medium;">Plants To</span><br><span style="font-size: 40px;">Grow</span></a>
+        </div>
+          <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="shoppage 1.html">Shop</a>
+            <a href="plantcare page.html">Plant Care</a>
+            <a href="About Us.html">About Us</a>
+          </div>
+
+    <h2 style="text-align: center; color: #021d12; font-size: 40px; font-weight: lighter; margin-top: 80px;">LET THE <span style="color: white;">GREEN</span> BE SEEN!</h2>
+<br>
+<br>
+<br>
+<div class="row" style="position: absolute; top: 40%; left: 20%;">
+ <div class="column">
+    <div class="card">
+      <img src="/Plants To Grow/Images/BostonFern1.jpg" alt="Boston Fern" style="width:100%">
+      <div class="container">
+        <h2 style="color: #021d12;">Boston Fern</h2>
+        <p class="title">P399.99</p>
+        <p><button class="button"><a style="color: white;" href="checkout page.html">ADD TO CART</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/Plants To Grow/Images/Fiddle Leaf Fig1.jpg" alt="Fiddle Leaf" style="width:100%">
+      <div class="container">
+        <h2 style="color: #021d12;">Fiddle Leaf</h2>
+        <p class="title">P339.99</p>
+        <p><button class="button"><a style="color: white;" href="checkout page.html">ADD TO CART</a></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/Plants To Grow/Images/HeartLeaf1.jpg" alt="HeartLeaf" style="width:100%">
+      <div class="container">
+        <h2 style="color: #021d12;">Heart Leaf</h2>
+        <p class="title">P399.99</p>
+        <p><button class="button"><a style="color: white;" href="checkout page.html">ADD TO CART</a></button></p>
+      </div>
+    </div>
+  </div>
+  <a href="shoppage 2.html" class="next round" style="font-size: large;">&#8250;</a>
+</div>
+
+<div class="footer">
+  <p style="font-size: 40px;">Powered by <a href="About Us.html">PLANTS TO GROW</a> </p>
+</div>
+</div>
+</body>
+</html>
